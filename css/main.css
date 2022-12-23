@@ -28,4 +28,28 @@ header .header-icons-container .icons{
     margin: 0 auto;
     margin-right: 5rem;
 }
+header .icons span{
+    color: var(--light);
+}
 
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 9rem;
+    grid-column-gap: 5rem;
+}
+nav .nav-logo-container{
+    align-self: center;
+}
+nav .nav-logo-container img{
+    width: 22rem;
+}
+nav .nav-profile-link{
+    justify-self: end;
+    align-self: center;
+    margin-right: 5rem;
+}
+nav .nav-profile-link a{
+    text-decoration: underline;
+    color: var(--dark);
+}
