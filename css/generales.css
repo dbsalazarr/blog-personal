@@ -1,4 +1,10 @@
 /*
+    IMPORTANDO FUENTES
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+/*
     VARIBLES
 */
 :root{
@@ -6,6 +12,11 @@
     --colo-secundario: #;
     --dark: #000;
     --light: #fff;
+
+    /*
+        FUENTES 
+    */
+    --fuente-principal: "Roboto Mono", Arial, Helvetica, Sans-serif;
 }
 
 /*
@@ -26,7 +37,7 @@ html{
     font-size: 62.5%; /*Now 1rem is equal to 10px*/
 }
 body{
-    font: normal 16px Sans-serif;
+    font: normal 16px var(--fuente-principal);
 }
 /*
     GENERICAS
