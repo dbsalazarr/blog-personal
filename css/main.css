@@ -73,6 +73,7 @@ nav .nav-profile-link a{
 .main__title{
     margin: 20rem 0;
     letter-spacing: 1rem;
+    font-family: "Roboto Mono", sans-serif;
 }
 .main__button{
     display: inline-block;
