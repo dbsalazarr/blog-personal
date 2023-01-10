@@ -9,7 +9,7 @@
 */
 :root{
     --color-primario: #47cfac;
-    --colo-secundario: #;
+    --color-secundario: #e6e9ed;
     --dark: #000;
     --light: #fff;
 
@@ -49,7 +49,3 @@ a{
 /*
     UTILITARIOS
 */
-
-.boton{
-    
-}
