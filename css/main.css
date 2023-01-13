@@ -99,9 +99,20 @@ nav .nav-profile-link a{
     background: var(--color-secundario);
     padding: 0 5rem 4rem;
     display: grid;
+    /* row gap | column gap */
+    grid-gap: 1rem 2rem;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 6rem 1fr;
 }
 .blogs-news__image{
     grid-column: 1;
+}
+.blogs-news__image img{
+    width: 100%;
+}
+.blogs-news-container__title{
+    margin-bottom: 2rem;
+}
+.blogs-news-container__title.blogs-news-container__title--blog{
+
 }
