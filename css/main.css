@@ -84,7 +84,7 @@ nav .nav-profile-link a{
     background: transparent;
     padding: 1rem 1.5rem;
     font-size: 1.3rem;
-    border: 2px solid #879D98;
+    border: 2px solid var(--color-primario);
     font-weight: 700;
     letter-spacing: .05rem;
     transition: .25s ease-in background,
@@ -172,6 +172,56 @@ nav .nav-profile-link a{
     border-radius: .4rem;
 }
 
+/* 
+    BLOG
+*/
+.blog{
+    font-family: var(--fuente-secundaria);
+}
+.blog__image{
+    width: 100%;
+    display: block;
+    margin-bottom: 8rem;
+}
+.blog__titulo-categoria{
+    border-bottom: 1px solid var(--color-secundario);
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+}
+.blog__titulo{
+    margin: 2rem 0;
+}
+.blog p{
+    line-height: 2.6rem;
+    margin: 2rem 0;
+}
+/* 
+    BLOG CONTACTO
+*/
+.blog-contacto{
+    background: var(--color-secundario);
+    font-family: var(--fuente-secundaria);
+    padding: 8rem 0;
+}
+.blog-contacto__grid-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-contacto__flex-content{
+    display: flex;
+    justify-content: center;
+}
+.blog-contacto__icon{
+    --size-icon: 20rem;
+    width: var(--size-icon);
+    height: var(--size-icon);
+}
+.blog-contacto__icon--letter{
+    background: url(../assets/image/013-newsletter.png) no-repeat center center;
+}
+.blog-contacto__icon--message{
+    background: url(../assets/image/006-like.png) no-repeat center center;
+}
 /*
     FOOTER
 */
