@@ -177,6 +177,7 @@ nav .nav-profile-link a{
 */
 .blog{
     font-family: var(--fuente-secundaria);
+    margin-bottom: 6rem;
 }
 .blog__image{
     width: 100%;
@@ -206,21 +207,24 @@ nav .nav-profile-link a{
 .blog-contacto__grid-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 8rem;
 }
 .blog-contacto__flex-content{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .blog-contacto__icon{
-    --size-icon: 20rem;
-    width: var(--size-icon);
-    height: var(--size-icon);
+    width: 20rem;
+    height: 10rem;
 }
 .blog-contacto__icon--letter{
-    background: url(../assets/image/013-newsletter.png) no-repeat center center;
+    background: url(../assets/image/013-newsletter.png) no-repeat center center/cover content-box;
 }
 .blog-contacto__icon--message{
-    background: url(../assets/image/006-like.png) no-repeat center center;
+    width: 24rem;
+    height: 10rem;
+    background: url(../assets/image/006-like.png) no-repeat center center/ 60%;
 }
 /*
     FOOTER
