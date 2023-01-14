@@ -10,6 +10,8 @@
 :root{
     --color-primario: #47cfac;
     --color-secundario: #e6e9ed;
+    --color-primario-heavy: #3DC6A2;
+    --dark-swarn: #1E2228;
     --dark: #000;
     --light: #fff;
 
@@ -51,6 +53,7 @@ a{
     UTILITARIOS
 */
 .center-content{
+    max-width: 192rem;
     width: 80%;
     margin: 0 auto;
 }
